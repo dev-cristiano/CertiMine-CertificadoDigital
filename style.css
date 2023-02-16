@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+}
+
+a, ul {
+    text-decoration: none;
+    color: #02402c;
+    list-style: none;
+}
+.row {
+    display: flex;
+}
+.col-2 {
+    width: 50%;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    height: 50px;
+    font-weight: 400;
+}
+
+.navbar-nav h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #02402c;
+}
+
+.list-itens {
+    display: flex;
+}
+
+.nav-link {
+    display: flex;
+    margin-right: 90px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-item:hover{
+    border-bottom: 1px solid;
+    border-color: #02402c;
+}
+
+.agendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #02402c;
+    border: none;
+    height: 46px;
+    width: 180px;
+    border-radius: 100px;
+    color: white;
+    transition: transform 0.3s ease; /* Definindo a transição */
+}
+
+.agendar:hover {
+    cursor: pointer;
+    box-shadow: 5px 11px 19px 4px rgba(0,0,0,0.1);
+    transform: scale(1.1); /* Aplicando um efeito de escala no botão */
+}
+
+.content {
+    margin-top: 50px;
+}
+.content-main {
+    display: flex;
+}
+.content-main img {
+    width: 800px;
+}
+.main-content-text h1{
+    color: #02402c;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.main-content-text h5{
+    color: #02402c;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.main-content-text p{
+    color: #02402c;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+/* Copys */
+.content-copys{
+    margin-top: 60px;
+}
+.copy-1, .copy-2, .copy-3, .copy-4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Planos */
+.bnt-plano {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.btn-planos {
+    width: 250px;
+    height: 48px;
+    border-radius: 100px;
+    border: none;
+    background-color: #02402c;
+    color: white;
+    transition: transform 0.3s ease; /* Definindo a transição */
+}
+
+.btn-renovar {
+    width: 250px;
+    height: 48px;
+    border-radius: 100px;
+    border: 1px solid #02402c;
+    background-color: transparent;
+    color: #02402c;
+    transition: transform 0.3s ease;
+    
+}
+
+.btn-planos:hover{
+    cursor: pointer;
+    box-shadow: 5px 11px 19px 4px rgba(0,0,0,0.1);
+    transform: scale(1.1); /* Aplicando um efeito de escala no botão */
+}
+
+.btn-renovar:hover {
+    cursor: pointer;
+    box-shadow: 5px 11px 19px 4px rgba(0,0,0,0.1);
+    background-color: #02402c;
+    color: white;
+    transform: scale(1.1); /* Aplicando um efeito de escala no botão */
+}
